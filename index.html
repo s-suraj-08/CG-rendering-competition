@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Gaurdians Await</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Gaurdians Await</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#Downloads">Downloads</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#making">Idea</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#ideas">Building & Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#reference">References</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Gaurdians Await</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">An entry to the CG1 rendering competition made by <br>Suraj Sudhakar and Siddhant Jain</p>
+                        <a class="btn btn-primary btn-xl" href="#Downloads">Find Out More</a>
+                    </div>
+                </div>  
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="Downloads">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Downloads</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">You can download the final render in different sizes below</p>
+                        <a class="btn btn-light btn-xl spc" href="assets/img/final.png">1920x1440</a>
+                        <a class="btn btn-light btn-xl spc"href="assets/img/thumb.png">480x360</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="making">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Idea & Descripition</h2>
+                <hr class="divider" />
+                        <br><br>
+                            <p class="text-muted mb-0 text-center">The main idea for the scene is inspired from old 2D games. The scene is depicting a hidden level,
+							a floating island in the middle of nowhere, which can be entered through the portal in the center. The terrain of the island is
+							plain grass with a single hill in the middle.
+							The hidden level consists of 3 treasure chests each with legendary loot. Each chest is protected by a faceless cloaked gaurdians. the warrior must fight
+							each of the them for the loot. The gaurdians await.<br>
+							The scene was inspired from old Video games such as Pokemon platinum & Prince of Persia.                            
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Ideas-->
+        <div id="ideas">
+			<div class="container px-4 px-lg-6">
+				<h2 class="text-center mt-0">Building of Scene & Features</h2>
+				<hr class="divider" />
+				<p class="text-muted mb-0 text-center">
+				The scene consisting of a low polygon floating island & the hill were modelled using blender. Free to use models were used for the arch, cloak, chest and the sword
+				and integrated into the scene using blender. Various image textures were used for models like the chest, rocky bottom texture of the island, grass on the island
+				hill and the portal. The requierd UV mapping was performed using blender. <br>
+				All the materials & lighting used in the scene were handcrafted and added through code. The stars for the scene were procedurally generated as lambertian 
+				emissive spheres. The code for the same can be found in z_scene.cpp file of the source code. Multi threading was implemented for faster rendering.
+				Modelling & code changes were performed by Suraj.<br>
+				<image src = "./assets/img/final.png" width="100%">
+				</p>
+			<div class="container px-4 px-lg-6">
+        </div>
+		
+		<div class="container px-4 px-lg-6">
+		<hr class="divider" />
+				<ul> 
+				<li>Time taken for rendering thumbnail image (480x360): Approximately 20 mins
+				<li> Time taken for rendering final image (1920x1440): Approximately 3 hours
+		<hr class="divider" />
+		<div class="container px-4 px-lg-6">
+
+        <!-- References-->
+        <section class="page-section bg-dark text-white" id=reference>
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">References</h2>
+				<hr class="divider" />
+                <a class="btn btn-light btn-xl spc" href="https://www.turbosquid.com/3d-models/free-treasure-chest-3d-model/615861">Treasure chest</a>
+				<a class="btn btn-light btn-xl spc" href="https://www.turbosquid.com/3d-models/moon-knight-3d-1900045">Cloak</a>
+				<a class="btn btn-light btn-xl spc" href="https://www.turbosquid.com/3d-models/3d-sword-longsword-single-handed-1680358">Sword</a>
+				<a class="btn btn-light btn-xl spc" href="https://www.pinterest.com/pin/329185053992577121/">Hill texture</a>
+				<a class="btn btn-light btn-xl spc" href="https://in.pinterest.com/pin/862931978621451248/">Island rock texture</a>
+				<a class="btn btn-light btn-xl spc" href="https://www.shutterstock.com/image-vector/seamless-texture-grass-57645046">grass texture</a>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - Start Bootstrap
+            <br class="mb-2">
+            <a href="https://startbootstrap.com/theme/creative/">Template</a>
+        </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
